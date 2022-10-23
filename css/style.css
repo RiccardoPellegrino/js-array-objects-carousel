@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#slider{
+    width: 70%;
+}
+#imgSlider{
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+#imgSlider img{
+    width: 100%;
+}
+#titolo{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#scritta{
+    position: absolute;
+    top: 100px;
+    right: 0;
+}
+
+#contenitore-anteprime {
+    width: 100vw;
+    justify-content: center;
+}
+
+.scura {
+    opacity: 0.4;
+}
+#contenitore-anteprime{
+    width: 70%;
+}
+#contenitore-anteprime img{
+   cursor: pointer;
+}
+button{
+    border: none;
+}

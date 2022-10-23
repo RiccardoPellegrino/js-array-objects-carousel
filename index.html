@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title> Carosello Array di Oggetti </title>
+
+</head>
+
+<body class="d-flex flex-column align-items-center justify-content-center bg-dark">
+
+    <div id="slider" class="d-flex m-auto mt-5">
+        <button class="fs-3" id="precedente"> &larr; </button>
+
+        <div id="imgSlider" class=" d-flex m-auto">
+            <h1 id="titolo" class="text-white"></h1>
+            <p id="scritta" class="text-white"></p>
+            <img id="immagine" src="" alt="">
+        </div>
+
+        <button class="fs-3" id="successivo">&rarr;</button>
+        
+    </div>
+
+    <div id="contenitore-anteprime" class="d-flex m-auto">
+
+    </div>
+
+    <div class="d-flex align-items-center justify-content-center bg-dark mt-5">
+        <button id="inverti" class="btn btn-primary">Inverti ordine scorrimento </button>
+        <button id="stop" class="btn btn-primary ms-2">interrompi scorrimento </button>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
